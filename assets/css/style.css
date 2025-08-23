@@ -869,7 +869,7 @@ main {
 
 .filter-list { display: none; }
 
-.filter-select-box {
+/* .filter-select-box {
   position: relative;
   margin-bottom: 25px;
 }
@@ -909,7 +909,7 @@ main {
   opacity: 1;
   visibility: visible;
   pointer-events: all;
-}
+} */
 
 .select-item button {
   background: var(--eerie-black-2);
