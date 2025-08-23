@@ -313,7 +313,7 @@ main {
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 600px; }
 
 .sidebar-info {
   position: relative;
@@ -469,8 +469,8 @@ main {
 
 .navbar-link {
   color: var(--light-gray);
-  font-size: var(--fs-8);
-  padding: 20px 7px;
+  font-size: var(--fs-20);
+  padding: 30px 15px;
   transition: color var(--transition-1);
 }
 
