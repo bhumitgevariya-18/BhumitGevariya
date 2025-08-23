@@ -931,11 +931,23 @@ main {
   margin-bottom: 10px;
 }
 
-.project-item { display: none; }
+.project-item { 
+  display: none;
+  padding-bottom: 10px;
+}
 
 .project-item.active {
   display: block;
   animation: scaleUp 0.25s ease forwards;
+  border-radius: 16px;
+  /* box-shadow: 0 0 10px var(--green-crayola),
+              0 0 20px var(--green-crayola);
+  transition: box-shadow 0.3s ease; */
+}
+
+.project-item.active:hover {
+  box-shadow: 0 0 8px var(--green-crayola),
+              0 0 15px var(--green-crayola);
 }
 
 @keyframes scaleUp {
