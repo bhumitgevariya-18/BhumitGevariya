@@ -326,9 +326,6 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
-  height: 200px;
-  width: 150px;
-  overflow: hidden;
 }
 
 .info-content .name {
